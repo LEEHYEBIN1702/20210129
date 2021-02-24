@@ -39,7 +39,7 @@ function formSubmit(str) {
 				</tr>
 				<c:choose>
 					<c:when test="${empty list}">
-						<tr>
+						<tr >
 							<td align="center" colspan="5">게시글이 없습니다.</td>
 						</tr>
 					</c:when>
